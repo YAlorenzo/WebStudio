@@ -12,13 +12,8 @@
       refs.modal.classList.toggle("is-hidden");
   }
 })();
-$(document).ready(function(){
-	$('order-section__button').click(function(){
-		$(this).toggleClass('open');
-  });
-  
-  
-});
+
+
   
 
 
