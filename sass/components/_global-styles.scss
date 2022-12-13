@@ -1,0 +1,106 @@
+body {
+    font-family: $font-body, sans-serif;
+    background-color: $color-fill;
+    color: $color-head;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+   
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+address {
+    font-style: normal;
+    margin-top: 20px;
+}
+
+link {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer {
+    background: $color-background;
+    padding: 60px 0;
+
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    color: $color-psevdo;
+}
+
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @media screen and (min-width: 1200px){
+        padding-top: 94px;
+        padding-bottom: 94px;
+        
+    }
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        padding-bottom: 30px;
+        
+    }
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+    @media screen and (min-width: 480px) {
+        max-width: 480px;        
+    }
+    @media screen and (min-width: 768px) {
+         max-width: 768px;
+    }
+    @media screen and (min-width: 1200px) {
+            max-width: 1200px;
+        }
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.list-nav__item {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
